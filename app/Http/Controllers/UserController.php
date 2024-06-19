@@ -33,7 +33,6 @@ class UserController extends Controller
 
         } catch (\Throwable $th) {
             return response()->json(['success' => false, 'msg' => $th->getMessage() ], 400);
-
         }
     }
 
